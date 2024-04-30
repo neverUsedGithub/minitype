@@ -2,7 +2,13 @@
     "name": "@justcoding123/minitype",
     "version": "0.0.2",
     "description": "",
-    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/neverUsedGithub/minitype.git"
+    },
+    "homepage": "https://github.com/neverUsedGithub/minitype",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "files": [
         "dist/**/*"
     ],

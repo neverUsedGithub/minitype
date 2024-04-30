@@ -1,6 +1,6 @@
 # Minitype
 
-A validation library with a simple API, thats easily treeshakeable.
+A validation library with a simple API thats easily treeshakeable.
 
 # Usage example
 
