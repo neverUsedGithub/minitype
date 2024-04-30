@@ -1,0 +1,26 @@
+{
+    "name": "@justcoding123/minitype",
+    "version": "0.0.2",
+    "description": "",
+    "main": "index.js",
+    "files": [
+        "dist/**/*"
+    ],
+    "scripts": {
+        "test": "npx tsx test/index.ts"
+    },
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        }
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "tsup": "^8.0.2",
+        "tsx": "^4.7.3"
+    }
+}
