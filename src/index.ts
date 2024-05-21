@@ -15,3 +15,4 @@ export { regex } from "./validators/regex";
 export { tuple } from "./validators/tuple";
 
 export type { ValidationError, Result, Infer as infer } from "./types";
+export type { BaseValidator } from "./validators/base";

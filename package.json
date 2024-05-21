@@ -1,6 +1,6 @@
 {
     "name": "@justcoding123/minitype",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "",
     "repository": {
         "type": "git",
@@ -13,7 +13,8 @@
         "dist/**/*"
     ],
     "scripts": {
-        "test": "npx tsx test/index.ts"
+        "test": "npx tsx test/index.ts",
+        "build": "npx tsup"
     },
     "exports": {
         ".": {
@@ -27,6 +28,7 @@
     "license": "ISC",
     "devDependencies": {
         "tsup": "^8.0.2",
-        "tsx": "^4.7.3"
+        "tsx": "^4.7.3",
+        "typescript": "^5.4.5"
     }
 }
